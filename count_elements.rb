@@ -1,4 +1,7 @@
 def count_elements(array)
-  # code goes here
+  frequencies = Hash.new(0)
+  array.each do |word|
+    frequencies[word] += 1
+  end
+  frequencies
 end
- 
