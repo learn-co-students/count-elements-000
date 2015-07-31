@@ -8,6 +8,7 @@ def count_elements(array)
       new_hash[x] = 1
     end
   end
+  
   return new_hash
 end
  
