@@ -10,3 +10,4 @@ array.each do |item|
  return newHash
 end
  
+ #Why am I typing here??
