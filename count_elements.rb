@@ -3,7 +3,7 @@ def count_elements(array)
   new_hash = {}
   array.each do |item|
     new_hash[item] ||= 0 
-    new_hash[item] = new_hash[item] + 1
+    new_hash[item] += 1
   end
   new_hash
 end
